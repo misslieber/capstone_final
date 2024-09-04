@@ -1,0 +1,91 @@
+
+ .banner{
+    width: 100%;
+    height: auto;
+ }
+.container_banner{
+    position: relative;
+}
+
+.banner_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -20%);
+    text-align: left;
+}
+ 
+h1{
+font-family: "Anton", system-ui;
+font-weight: 400;
+margin-bottom: -20px;
+}
+
+p{      font-family: "Glass Antiqua", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+
+#mainphoto{
+    height: 250px;
+  padding-top: -50px;}
+  #text1{
+    font-family: "Anton", system-ui;
+        font-weight: 400;
+     }
+  #text2{font-family: "Anton", system-ui;
+    font-weight: 400;
+    letter-spacing: 1px;
+     margin: 0 auto;
+     width: 30%;
+     padding: 20px;
+    border: 1px solid #ffc107;
+    }
+    #appbrewery{
+font-family: "Anton", system-ui;
+    font-weight: 400;
+    font-style: light;
+    font-size: large;
+    letter-spacing:1px;
+    }
+#text3{
+    font-family: "Anton", system-ui;
+    font-weight: 400;
+
+}
+#code_joke{
+    width: 250px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+#book_joke{
+    width: 250px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#card_text{ 
+    font-family: "Anton", system-ui;
+        font-weight: 400;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #090909, #807a7a, #151515);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
