@@ -13,6 +13,9 @@
     left: 50%;
     transform: translate(-80%, -20%);
     text-align: left;
+    letter-spacing: 1px;
+
+
 }
  
 h1{
@@ -46,11 +49,12 @@ font-family: "Anton", system-ui;
     font-weight: 400;
     font-style: light;
     font-size: large;
-    letter-spacing:1px;
+    letter-spacing:2px;
     }
 #text3{
     font-family: "Anton", system-ui;
     font-weight: 400;
+    letter-spacing: 1px;
 
 }
 #code_joke{
@@ -71,7 +75,7 @@ font-family: "Anton", system-ui;
         font-weight: 400;
 }
 .gradient-background {
-    background: linear-gradient(300deg, #090909, #807a7a, #151515);
+    background: linear-gradient(300deg, #000000, #4e2647, #000000);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
 }
